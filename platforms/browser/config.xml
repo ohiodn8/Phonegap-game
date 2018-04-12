@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.trailblazing.flippin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>flippin</name>
+    <description>
+        A flip and match game by         <a href="trailblazing.herokuapp.com" target="_blank">ohiodn8</a>
+</description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        Ohiodn8 - Trailblazing
+    </author>
+    <content src="index.html" />
+    <icon height="180" src="www/card_img.png" width="180" />
+    <splash height="82" platform="ios" src="www/card_img.png" width="98" />
+    <access origin="*" />
+</widget>
