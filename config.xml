@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.trailblazing.flippin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.trailblazing.flippin" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>flippin</name>
     <description>
         A flip and match game by <a href="trailblazing.herokuapp.com" target="_blank">ohiodn8</a>. Not optimized for the best mobile experience...
@@ -7,6 +7,16 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         Ohiodn8 - Trailblazing
     </author>
+      <!-- all platforms -->
+  <preference name="orientation" value="landscape" />
+  <preference name="fullscreen" value="true" />
+    <!-- Android only -->
+  <preference name="android-build-tool" value="ant|gradle" />
+  <preference name="android-minSdkVersion" value="15" />
+  <preference name="android-maxSdkVersion" value="28" />
+  <preference name="android-targetSdkVersion" value="28" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />  
     <content src="index.html" />
     <icon src="www/card_img.png" width="180" height="180" />
     <splash src="www/card_img.png" platform="ios" width="98" height="82" />
